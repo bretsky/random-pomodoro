@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "Stratum";
+    src: url(Stratum2-Regular.woff) format("woff");
+}
+
+.watch {
+  background: #f2f2f2;
+  background-image: -webkit-linear-gradient(top, #f9f9f9 , #e0e0e0);
+  background-image: -moz-linear-gradient(top, #f9f9f9 , #e0e0e0);
+  background-image: -ms-linear-gradient(top, #f9f9f9 , #e0e0e0);
+  background-image: -o-linear-gradient(top, #f9f9f9 , #e0e0e0);
+  background-image: linear-gradient(to bottom, #f9f9f9 , #e0e0e0);
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 4em;
+  padding: 8px 0px 8px 0px;
+  top: 40px;
+  margin: 0 auto;
+  border: solid #7c7c7c 2px;
+  border-radius: 2px 2px 2px 2px;
+  -moz-border-radius: 2px 2px 2px 2px;
+  -webkit-border-radius: 2px 2px 2px 2px;
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+
+.btn {
+  background: #507224;
+  background-image: -webkit-linear-gradient(top, #507224, #3a551b);
+  background-image: -moz-linear-gradient(top, #507224, #3a551b);
+  background-image: -ms-linear-gradient(top, #507224, #3a551b);
+  background-image: -o-linear-gradient(top, #507224, #3a551b);
+  background-image: linear-gradient(to bottom, #507224, #3a551b);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Stratum;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #2a3b16 2px;
+  text-decoration: none;
+}
+
+.tile {
+  position: relative;
+}
+
+.adjust {
+    transition: width 0.1s;
+}
+
+.settings {
+  border-radius: 2px 2px 2px 2px;
+  -moz-border-radius: 2px 2px 2px 2px;
+  -webkit-border-radius: 2px 2px 2px 2px;
+  border: 2px solid #8a8a8a;
+  background: #b0b0b0;
+  padding: 10px 10px 10px 10px;
+}
+
+.btn:hover {
+  background: #728f4e;
+  border: solid #64754f 2px;
+  text-decoration: none;
+}
+
+.btn:active {
+  background: #3a551b;
+  background-image: -webkit-linear-gradient(top, #3a551b, #507224);
+  background-image: -moz-linear-gradient(top, #3a551b, #507224);
+  background-image: -ms-linear-gradient(top, #3a551b, #507224);
+  background-image: -o-linear-gradient(top, #3a551b, #507224);
+  background-image: linear-gradient(to bottom, #3a551b, #507224);
+  border: solid #64754f 2px;
+  text-decoration: none;
+}
+
+div.showcase > *:first-child {
+  -webkit-transition: 6s linear;
+  transition: 6s linear;
+}
